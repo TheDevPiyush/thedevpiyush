@@ -1,0 +1,105 @@
+<svg width="100%" viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050810"/>
+      <stop offset="60%" stop-color="#0d1225"/>
+      <stop offset="100%" stop-color="#1a1f3a"/>
+    </linearGradient>
+    <radialGradient id="moon-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c8d8f0" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#c8d8f0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mtn-far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e2642"/>
+      <stop offset="100%" stop-color="#0d1225"/>
+    </linearGradient>
+    <linearGradient id="mtn-mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151c30"/>
+      <stop offset="100%" stop-color="#0a0f1e"/>
+    </linearGradient>
+    <linearGradient id="mtn-near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1018"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8eef8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#c0cce0" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="680" height="280" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <circle cx="60" cy="18" r="0.9" fill="#e8eef8" opacity="0.9"/>
+  <circle cx="130" cy="30" r="0.6" fill="#e8eef8" opacity="0.7"/>
+  <circle cx="200" cy="12" r="1.0" fill="#e8eef8" opacity="0.85"/>
+  <circle cx="270" cy="25" r="0.7" fill="#e8eef8" opacity="0.6"/>
+  <circle cx="340" cy="10" r="0.8" fill="#e8eef8" opacity="0.75"/>
+  <circle cx="420" cy="20" r="1.1" fill="#e8eef8" opacity="0.9"/>
+  <circle cx="500" cy="8"  r="0.7" fill="#e8eef8" opacity="0.65"/>
+  <circle cx="560" cy="28" r="0.9" fill="#e8eef8" opacity="0.8"/>
+  <circle cx="620" cy="15" r="0.6" fill="#e8eef8" opacity="0.7"/>
+  <circle cx="90" cy="45"  r="0.5" fill="#e8eef8" opacity="0.5"/>
+  <circle cx="460" cy="38" r="0.6" fill="#e8eef8" opacity="0.55"/>
+  <circle cx="160" cy="50" r="0.5" fill="#e8eef8" opacity="0.45"/>
+  <circle cx="580" cy="50" r="0.7" fill="#e8eef8" opacity="0.6"/>
+  <circle cx="30"  cy="60" r="0.5" fill="#e8eef8" opacity="0.5"/>
+  <circle cx="640" cy="42" r="0.8" fill="#e8eef8" opacity="0.7"/>
+
+  <!-- Moon glow + Moon -->
+  <ellipse cx="540" cy="52" rx="52" ry="52" fill="url(#moon-glow)"/>
+  <circle cx="540" cy="52" r="18" fill="#dde8f8" opacity="0.92"/>
+  <circle cx="548" cy="45" r="16" fill="#0d1225" opacity="0.88"/>
+
+  <!-- Far mountains -->
+  <path d="M0 180 L60 110 L100 130 L150 80 L200 120 L250 70 L300 115 L360 60 L420 105 L460 75 L510 110 L560 65 L610 100 L660 80 L680 95 L680 280 L0 280Z" fill="url(#mtn-far)" opacity="0.85"/>
+  <path d="M150 80 L165 95 L138 95Z" fill="url(#snow)" opacity="0.55"/>
+  <path d="M250 70 L265 88 L238 88Z" fill="url(#snow)" opacity="0.6"/>
+  <path d="M360 60 L377 80 L346 80Z" fill="url(#snow)" opacity="0.65"/>
+  <path d="M460 75 L474 92 L448 92Z" fill="url(#snow)" opacity="0.55"/>
+  <path d="M560 65 L575 84 L547 84Z" fill="url(#snow)" opacity="0.6"/>
+
+  <!-- Mid mountains -->
+  <path d="M0 210 L50 155 L90 175 L140 125 L185 160 L230 130 L280 165 L330 115 L390 155 L440 120 L490 158 L540 130 L590 165 L640 135 L680 155 L680 280 L0 280Z" fill="url(#mtn-mid)" opacity="0.92"/>
+  <path d="M140 125 L158 148 L126 148Z" fill="url(#snow)" opacity="0.7"/>
+  <path d="M230 130 L248 152 L216 152Z" fill="url(#snow)" opacity="0.75"/>
+  <path d="M330 115 L350 140 L315 140Z" fill="url(#snow)" opacity="0.8"/>
+  <path d="M440 120 L458 144 L424 144Z" fill="url(#snow)" opacity="0.72"/>
+  <path d="M540 130 L558 154 L525 154Z" fill="url(#snow)" opacity="0.68"/>
+
+  <!-- Near mountains -->
+  <path d="M0 250 L70 195 L120 215 L180 175 L240 210 L300 180 L360 215 L420 175 L470 210 L530 185 L580 215 L640 185 L680 205 L680 280 L0 280Z" fill="url(#mtn-near)"/>
+
+  <!-- Pine forest -->
+  <path d="M0 265 Q40 235 80 255 Q120 235 160 260 Q200 238 240 258 Q280 238 320 255 Q360 235 400 258 Q440 238 480 255 Q520 235 560 258 Q600 238 640 255 Q660 245 680 255 L680 280 L0 280Z" fill="#050810"/>
+
+  <!-- Mist -->
+  <rect x="0" y="240" width="680" height="20" fill="#1a1f3a" opacity="0.18"/>
+
+  <!-- Name -->
+  <text
+    x="340" y="145"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="52"
+    font-weight="700"
+    letter-spacing="10"
+    fill="#e8eef8"
+    opacity="0.97"
+  >PIYUSH</text>
+
+  <!-- Decorative line -->
+  <line x1="260" y1="155" x2="420" y2="155" stroke="#7a90b8" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Tagline -->
+  <text
+    x="340" y="172"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="12"
+    letter-spacing="3"
+    fill="#7a90b8"
+    opacity="0.85"
+  >turning coffee into code since 2020</text>
+</svg>
