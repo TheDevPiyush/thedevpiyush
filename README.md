@@ -1,7 +1,7 @@
 <div align="center">
 
 <picture>
-  <img src="banner.svg" alt="Piyush" width="100%"/>
+  <img src="piyush_banner_evening_v2.svg" alt="Piyush" width="100%"/>
 </picture>
 
 [![Portfolio](https://img.shields.io/badge/thedevpiyush.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://thedevpiyush.com)
