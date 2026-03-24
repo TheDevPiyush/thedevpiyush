@@ -55,8 +55,7 @@ const piyush = {
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=TheDevPiyush&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&count_private=true" />
-
+<img height="160" src="https://streak-stats.demolab.com?user=TheDevPiyush&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=ffffff10&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=8b949e&dates=8b949e&sideNums=ffffff&currStreakNum=ffffff" />
 <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheDevPiyush&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&langs_count=6" />
 
 </div>
