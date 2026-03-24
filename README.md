@@ -1,15 +1,8 @@
 <div align="center">
 
-```
-██████╗ ██╗██╗   ██╗██╗   ██╗███████╗██╗  ██╗
-██╔══██╗██║╚██╗ ██╔╝██║   ██║██╔════╝██║  ██║
-██████╔╝██║ ╚████╔╝ ██║   ██║███████╗███████║
-██╔═══╝ ██║  ╚██╔╝  ██║   ██║╚════██║██╔══██║
-██║     ██║   ██║   ╚██████╔╝███████║██║  ██║
-╚═╝     ╚═╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝
-```
-
-*turning coffee into code since 2020*
+<picture>
+  <img src="banner.svg" alt="Piyush" width="100%"/>
+</picture>
 
 [![Portfolio](https://img.shields.io/badge/thedevpiyush.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://thedevpiyush.com)
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thedevpiyush)
@@ -19,16 +12,11 @@
 
 ---
 
-### `> whoami`
+### about me
 
-```ts
-const piyush = {
-  role     : "Full-Stack Developer & Freelancer",
-  building : ["web apps", "mobile apps", "APIs that don't break at 3am"],
-  currently: "somewhere between a bug and a feature",
-  fun_fact : "I don't code for work — I work so I can code. Music is my other language.",
-};
-```
+Full-stack developer and freelancer based in India. I build web apps, mobile apps, and backends — mostly with TypeScript, Next.js, and whatever AWS service I'm learning that week.
+
+Coding isn't my job, it's my first hobby. Music is my second. Everything else is somewhere after that.
 
 ---
 
@@ -56,6 +44,7 @@ const piyush = {
 <div align="center">
 
 <img height="160" src="https://streak-stats.demolab.com?user=TheDevPiyush&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=ffffff10&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=8b949e&dates=8b949e&sideNums=ffffff&currStreakNum=ffffff" />
+
 <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheDevPiyush&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&langs_count=6" />
 
 </div>
