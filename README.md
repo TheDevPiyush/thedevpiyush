@@ -14,7 +14,7 @@
 
 ### `> about --me`
 
-Full-stack developer and freelancer. I build things for the web and mobile — from APIs to production-grade systems, mostly in TypeScript and sometiems Python.
+Full-stack developer. I build things for the web and mobile — from APIs to production-grade systems, mostly in TypeScript and sometimes Python.
 Coding was the hobby before it became the career. Music is the other one.
 
 ---
