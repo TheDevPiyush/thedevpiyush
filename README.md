@@ -12,11 +12,10 @@
 
 ---
 
-### about me
+### `> about --me`
 
-Full-stack developer and freelancer based in India. I build web apps, mobile apps, and backends — mostly with TypeScript, Next.js, and whatever AWS service I'm learning that week.
-
-Coding isn't my job, it's my first hobby. Music is my second. Everything else is somewhere after that.
+Full-stack developer and freelancer. I build things for the web and mobile — from APIs to production-grade systems, mostly in TypeScript and Next.js, deployed on whatever AWS throws at me.
+Coding was the hobby before it became the career. Music is the other one.
 
 ---
 
