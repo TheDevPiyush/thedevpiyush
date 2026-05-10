@@ -37,6 +37,7 @@ Coding was the hobby before it became the career. Music is the other one.
 
 </div>
 
+---
 
 ### `> --projects`
 
