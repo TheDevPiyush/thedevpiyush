@@ -11,16 +11,16 @@ from xml.sax.saxutils import escape
 OUT = Path(sys.argv[1])
 (OUT / "projects").mkdir(parents=True, exist_ok=True)
 
-INK = "#0d0607"
-DEEP = "#1a0a0f"
-WINE = "#3d1020"
-RUST = "#a0381a"
-EMBER = "#d4601e"
-AMBER = "#e8822a"
-GOLD = "#ffd080"
-CREAM = "#ffeea0"
-MUTED = "#c9a27e"
-DIM = "#7a5a4e"
+INK = "#050a18"
+DEEP = "#0b1430"
+WINE = "#1c2a52"
+RUST = "#8a1c34"
+EMBER = "#c8283c"
+AMBER = "#ff5a4e"
+GOLD = "#ffb199"
+CREAM = "#ffe9e0"
+MUTED = "#a3b3d6"
+DIM = "#5a6a90"
 
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace"
 SERIF = "Georgia, 'Times New Roman', serif"
@@ -149,33 +149,35 @@ def banner():
   <title>Piyush — turning coffee into code since 2020</title>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#12060a"/>
-      <stop offset="0.35" stop-color="{WINE}"/>
-      <stop offset="0.62" stop-color="#7a2614"/>
-      <stop offset="0.8" stop-color="{EMBER}"/>
-      <stop offset="1" stop-color="{AMBER}"/>
+      <stop offset="0" stop-color="#040817"/>
+      <stop offset="0.22" stop-color="#0d1a3f"/>
+      <stop offset="0.38" stop-color="#3a1a4f"/>
+      <stop offset="0.5" stop-color="#9a1f3c"/>
+      <stop offset="0.62" stop-color="{EMBER}"/>
+      <stop offset="0.75" stop-color="{AMBER}"/>
+      <stop offset="1" stop-color="#ff7a5c"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="{GOLD}" stop-opacity="0.75"/>
-      <stop offset="0.35" stop-color="#f09030" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#c04010" stop-opacity="0"/>
+      <stop offset="0" stop-color="#ff7a5c" stop-opacity="0.7"/>
+      <stop offset="0.35" stop-color="#ff6a50" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#b3263a" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff6c8"/>
+      <stop offset="0" stop-color="#fff1e6"/>
       <stop offset="0.6" stop-color="{GOLD}"/>
       <stop offset="1" stop-color="{AMBER}"/>
     </linearGradient>
     <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#8a2c16"/><stop offset="1" stop-color="#3a0f0a"/>
+      <stop offset="0" stop-color="#2a3570"/><stop offset="1" stop-color="#101a3c"/>
     </linearGradient>
     <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#5a1a0e"/><stop offset="1" stop-color="#220907"/>
+      <stop offset="0" stop-color="#18234e"/><stop offset="1" stop-color="#0a1129"/>
     </linearGradient>
     <linearGradient id="near" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2e0d0a"/><stop offset="1" stop-color="#140605"/>
+      <stop offset="0" stop-color="#0e1636"/><stop offset="1" stop-color="#060b1e"/>
     </linearGradient>
     <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2a0c0a"/><stop offset="1" stop-color="{INK}"/>
+      <stop offset="0" stop-color="#0c1530"/><stop offset="1" stop-color="{INK}"/>
     </linearGradient>
     <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="{CREAM}" stop-opacity="0"/><stop offset="1" stop-color="{CREAM}"/>
@@ -236,10 +238,10 @@ def banner():
     <g>{''.join(stars)}</g>
     {shooting}
     <g clip-path="url(#above)">
-      <ellipse class="glow" cx="{W / 2}" cy="{horizon}" rx="260" ry="190" fill="url(#glow)"/>
+      <ellipse class="glow" cx="{W / 2}" cy="{horizon}" rx="340" ry="210" fill="url(#glow)"/>
       <g class="sun"><circle cx="{W / 2}" cy="{horizon - 40}" r="54" fill="url(#sun)"/></g>
       {''.join(clouds)}
-      <path d="{far}" fill="url(#far)" opacity="0.9"/>
+      <path d="{far}" fill="url(#far)"/>
       <path d="{mid}" fill="url(#mid)"/>
       <path d="{near}" fill="url(#near)"/>
       <rect y="{horizon - 40}" width="{W}" height="60" fill="{AMBER}" opacity="0.08" filter="url(#haze)"/>
@@ -247,8 +249,8 @@ def banner():
     <rect y="{horizon}" width="{W}" height="{H - horizon}" fill="url(#water)"/>
     <ellipse cx="{W / 2}" cy="{horizon + 4}" rx="140" ry="10" fill="{GOLD}" opacity="0.18" filter="url(#haze)"/>
     {''.join(ripples)}
-    <path d="{trees_back}" fill="#1c0807"/>
-    <path d="{trees}" fill="#0b0405"/>
+    <path d="{trees_back}" fill="#0a1128"/>
+    <path d="{trees}" fill="#03060f"/>
     <g>{''.join(flies)}</g>
 
     <g text-anchor="middle">
@@ -329,7 +331,7 @@ def terminal():
       <stop offset="1" stop-color="{AMBER}" stop-opacity="0.25"/>
     </linearGradient>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1f0c10"/><stop offset="1" stop-color="#170a0c"/>
+      <stop offset="0" stop-color="#111b38"/><stop offset="1" stop-color="#0d152d"/>
     </linearGradient>
     <radialGradient id="warm" cx="1" cy="0" r="1">
       <stop offset="0" stop-color="{AMBER}" stop-opacity="0.10"/><stop offset="1" stop-color="{AMBER}" stop-opacity="0"/>
@@ -346,7 +348,7 @@ def terminal():
     @keyframes blink {{ 50% {{ opacity: 0 }} }}
   </style>
   <g clip-path="url(#win)">
-    <rect width="{W}" height="{H}" fill="#110709"/>
+    <rect width="{W}" height="{H}" fill="#080e21"/>
     <rect width="{W}" height="{H}" fill="url(#warm)"/>
     <rect width="{W}" height="40" fill="url(#bar)"/>
     <rect y="40" width="{W}" height="1" fill="{WINE}"/>
@@ -389,7 +391,7 @@ def card(slug, title, kicker, desc_lines, lang, tags, delay):
   <title>{escape(title)}</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1a0a0f"/><stop offset="1" stop-color="#0f0608"/>
+      <stop offset="0" stop-color="#0d1633"/><stop offset="1" stop-color="#070c1d"/>
     </linearGradient>
     <radialGradient id="warm" cx="1" cy="0" r="0.9">
       <stop offset="0" stop-color="{AMBER}" stop-opacity="0.16"/><stop offset="1" stop-color="{AMBER}" stop-opacity="0"/>
@@ -495,7 +497,7 @@ def footer():
       <stop offset="1" stop-color="{AMBER}" stop-opacity="0.22"/>
     </linearGradient>
     <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff6c8"/><stop offset="1" stop-color="{AMBER}"/>
+      <stop offset="0" stop-color="#fff1e6"/><stop offset="1" stop-color="{AMBER}"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="{GOLD}" stop-opacity="0.5"/><stop offset="1" stop-color="{EMBER}" stop-opacity="0"/>
@@ -523,7 +525,7 @@ def footer():
     <g clip-path="url(#sky)">
       <ellipse cx="{W / 2}" cy="{horizon}" rx="160" ry="70" fill="url(#glow)"/>
       <circle class="sun" cx="{W / 2}" cy="{horizon - 4}" r="30" fill="url(#sun)"/>
-      <path d="{hills}" fill="#2a0c0a"/>
+      <path d="{hills}" fill="#141e44"/>
     </g>
     <rect y="{horizon}" width="{W}" height="1.2" fill="{AMBER}" opacity="0.6"/>
   </g>

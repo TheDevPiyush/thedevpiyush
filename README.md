@@ -4,9 +4,9 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/thedevpiyush.com-1a0a0f?style=for-the-badge&logo=vercel&logoColor=ffeea0)](https://thedevpiyush.com)
-[![LinkedIn](https://img.shields.io/badge/linkedin-1a0a0f?style=for-the-badge&logo=linkedin&logoColor=e8822a)](https://linkedin.com/in/thedevpiyush)
-[![GitHub](https://img.shields.io/badge/@TheDevPiyush-1a0a0f?style=for-the-badge&logo=github&logoColor=ffd080)](https://github.com/TheDevPiyush)
+[![Portfolio](https://img.shields.io/badge/thedevpiyush.com-0b1430?style=for-the-badge&logo=vercel&logoColor=ffe9e0)](https://thedevpiyush.com)
+[![LinkedIn](https://img.shields.io/badge/linkedin-0b1430?style=for-the-badge&logo=linkedin&logoColor=ff5a4e)](https://linkedin.com/in/thedevpiyush)
+[![GitHub](https://img.shields.io/badge/@TheDevPiyush-0b1430?style=for-the-badge&logo=github&logoColor=ffb199)](https://github.com/TheDevPiyush)
 
 </div>
 
@@ -43,8 +43,8 @@
 
 <div align="center">
 
-<img height="165" src="https://streak-stats.demolab.com?user=TheDevPiyush&hide_border=true&border_radius=14&background=140709&stroke=3d1020&ring=e8822a&fire=ffd080&currStreakLabel=ffeea0&sideLabels=c9a27e&dates=7a5a4e&sideNums=ffeea0&currStreakNum=ffeea0" alt="GitHub streak"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheDevPiyush&layout=compact&hide_border=true&border_radius=14&bg_color=140709&title_color=ffeea0&text_color=c9a27e&langs_count=6" alt="Top languages"/>
+<img height="165" src="https://streak-stats.demolab.com?user=TheDevPiyush&hide_border=true&border_radius=14&background=0b1226&stroke=1c2a52&ring=ff5a4e&fire=ffb199&currStreakLabel=ffe9e0&sideLabels=a3b3d6&dates=5a6a90&sideNums=ffe9e0&currStreakNum=ffe9e0" alt="GitHub streak"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheDevPiyush&layout=compact&hide_border=true&border_radius=14&bg_color=0b1226&title_color=ffe9e0&text_color=a3b3d6&langs_count=6" alt="Top languages"/>
 
 <br/><br/>
 
