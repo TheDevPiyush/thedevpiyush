@@ -43,8 +43,8 @@ Coding was the hobby before it became the career. Music is the other one.
 
 <div align="center">
 
-[![face_recognition_geofenced_erp](https://github-readme-stats.vercel.app/api/pin/?username=TheDevPiyush&repo=face_recognition_geofenced_erp&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e)](https://github.com/TheDevPiyush/face_recognition_geofenced_erp)
-[![dating_app_mono_repo](https://github-readme-stats.vercel.app/api/pin/?username=TheDevPiyush&repo=dating_app_mono_repo&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e)](https://github.com/TheDevPiyush/dating_app_mono_repo)
+[![Biometrics Based Complete School ERP System](https://github-readme-stats.vercel.app/api/pin/?username=TheDevPiyush&repo=edufrnd.com-erp&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e)](https://github.com/TheDevPiyush/face_recognition_geofenced_erp)
+[![Full Fledge Dating App with voice & video call support](https://github-readme-stats.vercel.app/api/pin/?username=TheDevPiyush&repo=dating_app_mono_repo&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e)](https://github.com/TheDevPiyush/dating_app_mono_repo)
 
 </div>
 
