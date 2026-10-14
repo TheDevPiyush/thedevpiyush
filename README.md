@@ -1,69 +1,59 @@
 <div align="center">
 
-<picture>
-  <img src="piyush_banner_evening_v2.svg" alt="Piyush" width="100%"/>
-</picture>
+<img src="assets/banner.svg" alt="Piyush — turning coffee into code since 2020" width="100%"/>
 
-[![Portfolio](https://img.shields.io/badge/thedevpiyush.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://thedevpiyush.com)
-[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thedevpiyush)
-[![GitHub](https://img.shields.io/badge/@TheDevPiyush-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TheDevPiyush)
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/thedevpiyush.com-1a0a0f?style=for-the-badge&logo=vercel&logoColor=ffeea0)](https://thedevpiyush.com)
+[![LinkedIn](https://img.shields.io/badge/linkedin-1a0a0f?style=for-the-badge&logo=linkedin&logoColor=e8822a)](https://linkedin.com/in/thedevpiyush)
+[![GitHub](https://img.shields.io/badge/@TheDevPiyush-1a0a0f?style=for-the-badge&logo=github&logoColor=ffd080)](https://github.com/TheDevPiyush)
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%"/>
 
 ### `> about --me`
 
-Full-stack developer. I build things for the web and mobile — from APIs to production-grade systems, mostly in TypeScript and sometimes Python.
-Coding was the hobby before it became the career. Music is the other one.
+<img src="assets/about.svg" alt="Full-stack developer. I build things for the web and mobile — from APIs to production-grade systems, mostly in TypeScript and sometimes Python. Coding was the hobby before it became the career. Music is the other one." width="100%"/>
 
----
+<img src="assets/divider.svg" width="100%"/>
 
 ### `> tech --stack`
 
 <div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=3776AB)
-![Node.js](https://img.shields.io/badge/Node.js-000?style=for-the-badge&logo=nodedotjs&logoColor=339933)
-![FastAPI](https://img.shields.io/badge/FastAPI-000?style=for-the-badge&logo=fastapi&logoColor=009688)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-000?style=for-the-badge&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![MongoDB](https://img.shields.io/badge/MongoDB-000?style=for-the-badge&logo=mongodb&logoColor=47A248)
-![AWS](https://img.shields.io/badge/AWS-000?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
-![Docker](https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker&logoColor=2496ED)
-![n8n](https://img.shields.io/badge/n8n-000?style=for-the-badge&logo=n8n&logoColor=EA4B71)
-
+  <img src="https://skillicons.dev/icons?i=ts,py,nodejs,fastapi,nextjs,react,postgres,mongodb,aws,docker,n8n&theme=dark&perline=11" alt="TypeScript, Python, Node.js, FastAPI, Next.js, React Native, PostgreSQL, MongoDB, AWS, Docker, n8n"/>
 </div>
 
----
+<img src="assets/divider.svg" width="100%"/>
 
-### `> --projects`
+### `> ls ./projects`
 
 <div align="center">
 
-[![Biometrics Based Complete School ERP System](https://github-readme-stats.vercel.app/api/pin/?username=TheDevPiyush&repo=edufrnd.com-erp&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e)](https://github.com/TheDevPiyush/edufrnd.com-erp)
-[![Full Fledge Dating App with voice & video call support](https://github-readme-stats.vercel.app/api/pin/?username=TheDevPiyush&repo=dating_app_mono_repo&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e)](https://github.com/TheDevPiyush/dating_app_mono_repo)
+<a href="https://github.com/TheDevPiyush/dating_app_mono_repo"><img src="assets/projects/dating-app.svg" width="49%" alt="Dating App"/></a>
+<a href="https://github.com/TheDevPiyush/face_recognition_geofenced_erp"><img src="assets/projects/geofenced-erp.svg" width="49%" alt="Geofenced Face-ID ERP"/></a>
+<a href="https://github.com/TheDevPiyush/pdb_database"><img src="assets/projects/pdb.svg" width="49%" alt="pDB"/></a>
+<a href="https://github.com/TheDevPiyush/linkedin_post_automation"><img src="assets/projects/linkedin-autopilot.svg" width="49%" alt="LinkedIn Autopilot"/></a>
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%"/>
 
 ### `> git log --stats`
 
 <div align="center">
 
-<img height="160" src="https://streak-stats.demolab.com?user=TheDevPiyush&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=ffffff10&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=8b949e&dates=8b949e&sideNums=ffffff&currStreakNum=ffffff" />
+<img height="165" src="https://streak-stats.demolab.com?user=TheDevPiyush&hide_border=true&border_radius=14&background=140709&stroke=3d1020&ring=e8822a&fire=ffd080&currStreakLabel=ffeea0&sideLabels=c9a27e&dates=7a5a4e&sideNums=ffeea0&currStreakNum=ffeea0" alt="GitHub streak"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheDevPiyush&layout=compact&hide_border=true&border_radius=14&bg_color=140709&title_color=ffeea0&text_color=c9a27e&langs_count=6" alt="Top languages"/>
 
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheDevPiyush&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&langs_count=6" />
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TheDevPiyush/thedevpiyush/output/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TheDevPiyush/thedevpiyush/output/snake-light.svg"/>
+  <img src="https://raw.githubusercontent.com/TheDevPiyush/thedevpiyush/output/snake-dark.svg" alt="contribution snake" width="100%"/>
+</picture>
 
 </div>
 
----
-
-<div align="center">
-
-`// still compiling... check back later`
-
-</div>
+<img src="assets/footer.svg" alt="// still compiling... check back later" width="100%"/>

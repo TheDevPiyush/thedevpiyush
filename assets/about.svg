@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 346.6" width="900" height="346.6" role="img" aria-label="about me terminal">
+  <title>about --me</title>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8822a" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#3d1020" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#e8822a" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f0c10"/><stop offset="1" stop-color="#170a0c"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="1" cy="0" r="1">
+      <stop offset="0" stop-color="#e8822a" stop-opacity="0.10"/><stop offset="1" stop-color="#e8822a" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="win"><rect x="1" y="1" width="898" height="344.6" rx="14"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace; font-size: 15px; white-space: pre; }
+    .ln { opacity: 0; animation: show .25s ease-out forwards; }
+    @keyframes show { from { opacity: 0; transform: translateY(4px) } to { opacity: 1; transform: none } }
+    .typed { clip-path: inset(0 100% 0 0); animation-name: type; animation-fill-mode: both; }
+    @keyframes type { from { clip-path: inset(0 100% 0 0) } to { clip-path: inset(0 0 0 0) } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0 } }
+  </style>
+  <g clip-path="url(#win)">
+    <rect width="900" height="346.6" fill="#110709"/>
+    <rect width="900" height="346.6" fill="url(#warm)"/>
+    <rect width="900" height="40" fill="url(#bar)"/>
+    <rect y="40" width="900" height="1" fill="#3d1020"/>
+    <circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+    <circle cx="44" cy="20" r="6" fill="#febc2e"/>
+    <circle cx="64" cy="20" r="6" fill="#28c840"/>
+    <text x="450.0" y="25" text-anchor="middle" fill="#7a5a4e" style="font-size:13px">piyush@dev: ~</text>
+    <g class="ln" style="animation-delay:0.50s"><text x="34" y="74" fill="#e8822a">❯</text><text x="56" y="74" fill="#ffeea0" class="typed" style="--w:56px;animation-delay:0.50s;animation-duration:0.35s;animation-timing-function:steps(6)">whoami</text></g><text x="56" y="100" class="ln" style="animation-delay:1.10s"><tspan fill="#ffeea0">Piyush</tspan><tspan fill="#c9a27e"> — full-stack developer · web &amp; mobile</tspan></text><g class="ln" style="animation-delay:1.22s"><text x="34" y="140.3" fill="#e8822a">❯</text><text x="56" y="140.3" fill="#ffeea0" class="typed" style="--w:116px;animation-delay:1.22s;animation-duration:0.71s;animation-timing-function:steps(13)">cat about.txt</text></g><text x="56" y="166.3" class="ln" style="animation-delay:2.19s"><tspan fill="#c9a27e">I build things for the web and mobile — from APIs to production-grade</tspan></text><text x="56" y="192.3" class="ln" style="animation-delay:2.31s"><tspan fill="#c9a27e">systems, mostly in </tspan><tspan fill="#e8822a">TypeScript</tspan><tspan fill="#c9a27e"> and sometimes </tspan><tspan fill="#e8822a">Python</tspan><tspan fill="#c9a27e">.</tspan></text><text x="56" y="218.3" class="ln" style="animation-delay:2.43s"><tspan fill="#c9a27e">Coding was the hobby before it became the career. </tspan><tspan fill="#ffd080">Music</tspan><tspan fill="#c9a27e"> is the other one.</tspan></text><g class="ln" style="animation-delay:2.55s"><text x="34" y="258.6" fill="#e8822a">❯</text><text x="56" y="258.6" fill="#ffeea0" class="typed" style="--w:107px;animation-delay:2.55s;animation-duration:0.66s;animation-timing-function:steps(12)">echo $STATUS</text></g><text x="56" y="284.6" class="ln" style="animation-delay:3.46s"><tspan fill="#7bd88f">●</tspan><tspan fill="#c9a27e"> shipping things · open to interesting problems</tspan></text><g class="ln" style="animation-delay:3.58s"><text x="34" y="310.6" fill="#e8822a">❯</text><rect class="cursor" x="56" y="296.6" width="9" height="18" fill="#ffeea0"/></g>
+  </g>
+  <rect x="0.75" y="0.75" width="898.5" height="345.1" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>

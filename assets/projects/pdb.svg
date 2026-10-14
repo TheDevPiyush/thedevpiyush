@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="pDB">
+  <title>pDB</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0a0f"/><stop offset="1" stop-color="#0f0608"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="1" cy="0" r="0.9">
+      <stop offset="0" stop-color="#e8822a" stop-opacity="0.16"/><stop offset="1" stop-color="#e8822a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd080" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffd080"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .k { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace; letter-spacing: 2px; fill: #e8822a; }
+    .t { font: 700 21px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffeea0; }
+    .d { font: 400 13.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9a27e; }
+    .l { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace; fill: #c9a27e; }
+    .tag { font: 500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace; fill: #ffd080; }
+    .run { stroke-dasharray: 90 1222.0; animation: run 6s linear infinite; animation-delay: -3.0s; }
+    @keyframes run { to { stroke-dashoffset: -1312.0 } }
+    .in { animation: in .7s cubic-bezier(.2,.7,.2,1) both; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%,100% { opacity: .5; transform: scale(1) } 50% { opacity: 1; transform: scale(1.35) } }
+  </style>
+  <rect x="1" y="1" width="438" height="198" rx="14" fill="url(#bg)"/>
+  <rect x="1" y="1" width="438" height="198" rx="14" fill="url(#warm)"/>
+  <rect x="1" y="1" width="438" height="198" rx="14" fill="none" stroke="#3d1020" stroke-width="1.2"/>
+  <rect class="run" x="1" y="1" width="438" height="198" rx="14" fill="none" stroke="#e8822a" stroke-width="1.6" stroke-linecap="round" opacity="0.85"/>
+  <g class="in">
+    <text x="26" y="40" class="k">SYSTEMS · DATABASE</text>
+    <text x="26" y="70" class="t">pDB</text>
+    <text x="414" y="40" text-anchor="end" class="k" style="fill:#7a5a4e">↗</text>
+    <text x="26" y="98" class="d">A lightweight NoSQL document database written</text><text x="26" y="119" class="d">entirely in C — exploring storage engines and</text><text x="26" y="140" class="d">low-level database internals.</text>
+    <circle class="pulse" cx="32" cy="174" r="5" fill="#a8b9cc"/>
+    <text x="44" y="178" class="l">C</text>
+    <rect x="67.2" y="164" width="64.2" height="20" rx="10" fill="#e8822a" fill-opacity="0.08" stroke="#e8822a" stroke-opacity="0.3"/><text x="99.3" y="178" text-anchor="middle" class="tag">storage</text><rect x="139.4" y="164" width="51.0" height="20" rx="10" fill="#e8822a" fill-opacity="0.08" stroke="#e8822a" stroke-opacity="0.3"/><text x="164.9" y="178" text-anchor="middle" class="tag">nosql</text>
+  </g>
+</svg>

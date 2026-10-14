@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-label="// still compiling... check back later">
+  <title>// still compiling... check back later</title>
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8822a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e8822a" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff6c8"/><stop offset="1" stop-color="#e8822a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd080" stop-opacity="0.5"/><stop offset="1" stop-color="#d4601e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="0.15" stop-color="#fff"/>
+      <stop offset="0.85" stop-color="#fff"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="sides"><rect width="1200" height="170" fill="url(#edge)"/></mask>
+    <clipPath id="sky"><rect width="1200" height="120"/></clipPath>
+    <clipPath id="typed">
+      <rect x="52.80" y="0" width="364.80" height="60">
+        <animateTransform attributeName="transform" type="translate" values="0.00 0;9.60 0;19.20 0;28.80 0;38.40 0;48.00 0;57.60 0;67.20 0;76.80 0;86.40 0;96.00 0;105.60 0;115.20 0;124.80 0;134.40 0;144.00 0;153.60 0;163.20 0;172.80 0;182.40 0;192.00 0;201.60 0;211.20 0;220.80 0;230.40 0;240.00 0;249.60 0;259.20 0;268.80 0;278.40 0;288.00 0;297.60 0;307.20 0;316.80 0;326.40 0;336.00 0;345.60 0;355.20 0;364.80 0" keyTimes="0.0000;0.0263;0.0526;0.0789;0.1053;0.1316;0.1579;0.1842;0.2105;0.2368;0.2632;0.2895;0.3158;0.3421;0.3684;0.3947;0.4211;0.4474;0.4737;0.5000;0.5263;0.5526;0.5789;0.6053;0.6316;0.6579;0.6842;0.7105;0.7368;0.7632;0.7895;0.8158;0.8421;0.8684;0.8947;0.9211;0.9474;0.9737;1.0000" calcMode="discrete" dur="2.8s" begin="0.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <style>
+    .sun { animation: set 10s ease-in-out infinite; }
+    @keyframes set { 0%,100% { transform: translateY(0) } 50% { transform: translateY(16px) } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0 } }
+  </style>
+  <g mask="url(#sides)">
+    <rect y="50" width="1200" height="70" fill="url(#fade)"/>
+    <g clip-path="url(#sky)">
+      <ellipse cx="600.0" cy="120" rx="160" ry="70" fill="url(#glow)"/>
+      <circle class="sun" cx="600.0" cy="116" r="30" fill="url(#sun)"/>
+      <path d="M0 324 L0.0 121.6 L45.8 100.4 L96.4 121.1 L146.6 109.4 L185.7 120.3 L229.3 99.2 L260.0 122.2 L293.9 103.3 L335.7 123.9 L368.9 108.2 L418.9 121.8 L450.7 109.4 L482.1 122.8 L513.1 118.3 L562.0 123.8 L595.2 121.0 L644.1 123.7 L695.2 115.1 L739.5 123.5 L790.1 107.0 L841.3 120.7 L876.4 105.5 L908.4 123.4 L938.0 106.2 L980.5 124.0 L1024.7 105.7 L1060.2 120.8 L1099.7 106.0 L1139.2 121.3 L1168.6 98.3 L1197.2 121.1 L1245.4 324 Z" fill="#2a0c0a"/>
+    </g>
+    <rect y="120" width="1200" height="1.2" fill="#e8822a" opacity="0.6"/>
+  </g>
+  <g clip-path="url(#typed)">
+    <text x="417.60" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="16" textLength="364.80" lengthAdjust="spacingAndGlyphs" fill="#c9a27e">// still compiling... check back later</text>
+  </g>
+  <rect class="cursor" x="419.60" y="24" width="8" height="18" fill="#e8822a">
+    <animateTransform attributeName="transform" type="translate" values="0.00 0;9.60 0;19.20 0;28.80 0;38.40 0;48.00 0;57.60 0;67.20 0;76.80 0;86.40 0;96.00 0;105.60 0;115.20 0;124.80 0;134.40 0;144.00 0;153.60 0;163.20 0;172.80 0;182.40 0;192.00 0;201.60 0;211.20 0;220.80 0;230.40 0;240.00 0;249.60 0;259.20 0;268.80 0;278.40 0;288.00 0;297.60 0;307.20 0;316.80 0;326.40 0;336.00 0;345.60 0;355.20 0;364.80 0" keyTimes="0.0000;0.0263;0.0526;0.0789;0.1053;0.1316;0.1579;0.1842;0.2105;0.2368;0.2632;0.2895;0.3158;0.3421;0.3684;0.3947;0.4211;0.4474;0.4737;0.5000;0.5263;0.5526;0.5789;0.6053;0.6316;0.6579;0.6842;0.7105;0.7368;0.7632;0.7895;0.8158;0.8421;0.8684;0.8947;0.9211;0.9474;0.9737;1.0000" calcMode="discrete" dur="2.8s" begin="0.4s" fill="freeze"/>
+  </rect>
+</svg>
